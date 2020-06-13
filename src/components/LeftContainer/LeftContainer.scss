@@ -1,0 +1,33 @@
+
+.LeftContainer {
+    background-color: rgba(black, 0.8);
+    flex: 40%;
+    padding: 80px;
+    color: white;
+    width: 60%;
+    text-align: left;
+
+    h4 {
+        font-weight: normal;
+        padding-top: 2rem;
+        text-transform: uppercase;
+    }
+    h1 {
+        font-weight: normal;
+        padding-top: 3rem;
+    }
+    h2 {
+        font-weight: normal;
+    }
+    ul {
+        padding-top: 2rem;
+    }
+    li {
+        font-size: 20px;
+        padding: .2rem;
+        list-style: none;
+    }
+    .LeftContainer__bullet {
+        list-style: disc;
+    }
+}

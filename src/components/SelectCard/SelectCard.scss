@@ -1,0 +1,35 @@
+
+.SelectCard {
+    display: inline-block;
+    margin: .5rem;
+    &__Btn {
+        background-color: white;
+        min-width: 150px;
+        max-width: 150px;
+        font-size: 1rem;
+        font-weight: 700;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        padding: 1.1rem;
+        color: white;
+        box-shadow: 0 0px 3px 0 rgba(0,0,0,0.15);
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+        p {
+            font-weight: 300;
+            font-size: 12px;
+            margin: 0px;
+            padding-top: .5rem;
+        }
+        &--checked {
+            background-color: dodgerblue
+        }
+
+        &--unchecked {
+            color: black
+        }
+    }
+    
+}
